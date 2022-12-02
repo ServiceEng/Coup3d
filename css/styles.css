@@ -90,6 +90,20 @@ model-viewer{
 	transition: opacity 0.3s;
 	width: 5px;
 }
+
+.Hotspot2 {
+	background: transparent;
+	border-radius: 20px;
+	border: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 4px;
+	padding: 4px;
+	position: relative;
+	transition: opacity 0.3s;
+	width: 5px;
+}
   
 .Hotspot:not([data-visible]) {
 	background: transparent;
@@ -116,7 +130,7 @@ model-viewer{
 	background: transparent;
 	border-radius: 3px;
 	display: block;
-	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-size: 11px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
 	max-width: 128px;
@@ -125,6 +139,7 @@ model-viewer{
 	position: absolute;
 	top: 50%;
 	width: max-content;
+	color: transparent;
 }
 
 .HotspotAnnotation2{
@@ -134,7 +149,7 @@ model-viewer{
 	color: rgba(0, 0, 0, 0.8);
 	display: block;
 	font-family: Futura, Helvetica Neue, sans-serif;
-	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-size: 11px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
 	max-width: 128px;
@@ -152,7 +167,7 @@ model-viewer{
 	color: rgba(0, 0, 0, 0.8);
 	display: block;
 	font-family: Futura, Helvetica Neue, sans-serif;
-	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-size: 11px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
 	max-width: 128px;
@@ -169,7 +184,7 @@ model-viewer{
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 	color: rgba(0, 0, 0, 0.8);
 	display: block;
-	font-size: 9px;										/*Cambio de tamñano en texto o numeros hotspot*/
+	font-size: 11px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
 	max-width: 128px;
