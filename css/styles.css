@@ -15,15 +15,23 @@ main {
 	margin-top: -25px;
 }
 
+div .imagen3_nom {
+	width:100%;
+	margin: 0 auto;
+	background-color: antiquewhite;
+}
+
+div .imagen4_nom {
+	width:100%;
+	margin: 0 auto;
+	background-color: antiquewhite;
+}
+
+
 h1{
 	font-weight: 900;
 	margin: 30px auto;
 	text-align: center;
-}
-
-.imagen2_nom{
-	width: 100%;
-	margin-top: -25px;
 }
 
 model-viewer{
