@@ -93,18 +93,18 @@ model-viewer{
   
 .Hotspot:not([data-visible]) {
 	background: transparent;
-	border: 4px solid #fff;
+	border: .2px solid #fff;
 	box-shadow: none;
-	height: 32px;
+	height: 1px;
 	pointer-events: none;
-	width: 32px;
+	width: 1px;
 }
   
 .Hotspot:focus {
-	border: 4px solid rgb(0, 128, 200);
-	height: 32px;
+	border: .2px solid rgb(0, 128, 200);
+	height: 1px;
 	outline: none;
-	width: 32px;
+	width: 1px;
   }
   
 .Hotspot > * {
